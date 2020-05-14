@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="product.css">
+            <style type="text/css">
+
+            body{
+                width: 90%;
+                padding: 20px;
+                margin: 15px;
+            }
+            .container{
+                background-image: url(images/black.jpg);
+                text-align: center;
+                min-height: 200%;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+
+            h2{
+                font-size: 60px;
+                padding: 30px;
+                font-family:cursive;
+                color: azure;
+                text-shadow: -3px -3px 12px #313a49;
+                -webkit-text-fill-color: rgba(255, 255, 255, 1);
+                font-weight: normal;
+            }
+
+            .text{
+                width: 70%;
+                margin-left: 15%;
+                padding: 30px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                background-color: #f2f2f2;
+                letter-spacing: 0.1em;
+                line-height: 1.8;
+            }
+
+            .text1{
+                font-size: 40px;
+                color: white;
+                margin: 0 0 20px 0;
+                font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+                text-align: center;
+                text-shadow: -3px -3px 12px #313a49;
+            }
+
+            h3{
+                font-size:40px;
+                padding: 10px;
+                margin: 10px;
+                font-family: 'Mr Dafoe', cursive;
+                color: #ffffff;
+                -webkit-text-fill-color: rgba(255, 255, 255, 1);
+                text-shadow: -3px -3px 12px #313a49;
+                font-weight: normal;
+            }
+
+            .img-container{
+                display: flex;
+                flex-wrap: wrap;
+                border: 2px solid;
+                width: 80%;
+            }
+
+            @media screen and (max-width:320px){
+                body{
+                    padding: 30px;
+                    width:60%;
+                    height:70% ;
+                }
+                
+            }
+            </style> 
+    </head>
+    <body class="container">
+        <header>
+            <h2>Portal Tech</h2>
+        </header>
+          <section class="text">
+             <main>
+                 <h1>PORTAL TECH</h1>
+                 <p>introduces the world to the new age technology with the fastest feature that makes life easier<br>
+                 It's bigger than what you think</p>
+             </main>
+          </section> 
+          <div class="text1">Welcome To The New World</div> 
+          <!--New products-->
+          <section class="img-container">
+                <div>
+                    <img style="width: 100%;" src="images/Iphone.jpg">
+                    <h3>Iphone</h3>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <img style="width: 80%;" src="images/cam.jpg">
+                    <h3>Cam360</h3>
+                </div>
+              </section>
+    </body>
